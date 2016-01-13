@@ -464,5 +464,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="hondajohn88" revision="mm6.0" />
-  <project path="vendor/hondajohn88" name="android_vendor_chroma" remote="hondajohn88" revision="mm6.0" />
+  <project path="vendor/chroma" name="android_vendor_chroma" remote="hondajohn88" revision="mm6.0" />
 </manifest>
