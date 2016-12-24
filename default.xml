@@ -352,6 +352,7 @@
   <project path="hardware/qcom/audio" name="zl1_hardware_qcom_audio" groups="qcom,qcom_audio" remote="hondajohn88" revision="master" />
   <project path="hardware/qcom/media" name="zl1_hardware_qcom_media" groups="qcom" remote="hondajohn88" revision="master" />  
   <project path="hardware/qcom/display" name="zl1_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="hondajohn88" revision="master" />
+  <project path="kernel/leeco/le_zl1" name="android_kernel_leeco_zl1" groups="kernel,zl1,qcom_pdk" remote="hondajohn88" revision="Stock-5.8.019s" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
