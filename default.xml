@@ -13,7 +13,7 @@
   <remote name="darkobas"
            fetch="https://github.com/darkobas/" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="aosp_build_le_zl1" groups="pdk" remote="hondajohn88" revision="m" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -355,6 +355,7 @@
   <project path="hardware/qcom/audio" name="zl1_hardware_qcom_audio" groups="qcom,qcom_audio" remote="hondajohn88" revision="master" />
   <project path="hardware/qcom/media" name="zl1_hardware_qcom_media" groups="qcom" remote="hondajohn88" revision="master" />  
   <project path="hardware/qcom/display" name="zl1_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="hondajohn88" revision="master" />
+  <project path="external/ant-wireless" name="aosp_ant-wireless_le_zl1" remote="hondajohn88" revision="master" />
   <project path="kernel/leeco/le_zl1" name="android_kernel_leeco_msm8996" groups="kernel,zl1,qcom_pdk" remote="darkobas" revision="android-7.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
