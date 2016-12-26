@@ -356,6 +356,11 @@
   <project path="hardware/qcom/media" name="zl1_hardware_qcom_media" groups="qcom" remote="hondajohn88" revision="master" />  
   <project path="hardware/qcom/display" name="zl1_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="hondajohn88" revision="master" />
   <project path="external/ant-wireless" name="aosp_ant-wireless_le_zl1" remote="hondajohn88" revision="master" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="hondajohn88" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="hondajohn88" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="hondajohn88" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="hondajohn88" revision="cm-13.0" />
+  <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" remote="hondajohn88" revision="master" />
   <project path="kernel/leeco/le_zl1" name="android_kernel_leeco_msm8996" groups="kernel,zl1,qcom_pdk" remote="darkobas" revision="android-7.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
