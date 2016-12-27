@@ -346,6 +346,7 @@
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
+  <project path="manifest" name="hondajohn88_manifest" remote="hondajohn88" revision="aosp-6.0.1" />
   <project path="device/leeco/le_zl1" name="aosp_device_le_zl1" groups="device,broadcom_pdk" remote="hondajohn88" revision="master" />
   <project path="vendor/leeco/le_zl1" name="android_vendor_leeco_zl1" groups="device,kernel,zl1,qcom_pdk" remote="hondajohn88" revision="master" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="hondajohn88" revision="cm-13.0" />
