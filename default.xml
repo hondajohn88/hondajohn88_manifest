@@ -82,6 +82,7 @@
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
+  <project path="device/leeco/le_zl1" name="aosp_device_leeco_le_zl1" remote="hondajohn88" revision="aosp-7.1.1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -90,6 +91,7 @@
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/ant-wireless" name="aosp_le_zl1_external_ant-wireless" remote="hondajohn88" revision="aosp-7.1.1" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
@@ -566,11 +568,13 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="n7x" />
   <project path="vendor/leeco/le_zl1" name="android_vendor_leeco_zl1" groups="device,kernel,zl1,qcom_pdk" remote="hondajohn88" revision="aosp-7.1.1" />
-  <project path="vendor/qcom/binaries" name="aosp_le_zl1_vendor_qcom_binaries" groups="device,kernel,zl1,qcom_pdk" remote="hondajohn88" revision="aosp-7.1.1" />
+  <project path="vendor/qcom/binaries" name="aosp_le_zl1_vendor_qcom_binaries" remote="hondajohn88" revision="aosp-7.1.1" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="device,kernel,zl1,qcom_pdk" remote="hondajohn88" revision="aosp-7.1.1" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" groups="device,kernel,zl1,qcom_pdk" remote="hondajohn88" revision="aosp-7.1.1" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" groups="device,kernel,zl1,qcom_pdk" remote="hondajohn88" revision="aosp-7.1.1" />
   <project path="vendor/codeaurora/telephony" name="aosp_le_zl1_vendor_codeaurora_telephony" groups="device,kernel,zl1,qcom_pdk" remote="hondajohn88" revision="aosp-7.1.1" />
+  <project path="device/qcom/common" name="aosp_le_zl1_device_qcom_common" remote="hondajohn88" revision="aosp-7.1.1" />
+  <project path="device/qcom/sepolicy" name="aosp_le_zl1_device_qcom_sepolicy" remote="hondajohn88" revision="aosp-7.1.1" />
   <project path="kernel/leeco/le_zl1" name="android_kernel_leeco_msm8996" groups="kernel,zl1,qcom_pdk" remote="darkobas" revision="android-7.1" />
 
 </manifest>
